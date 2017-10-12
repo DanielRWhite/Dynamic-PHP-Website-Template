@@ -11,3 +11,5 @@ To run the template for development; install PHP 5 or above, go into the public/
 ```bash
 php -S localhost:80
 ```
+
+Quick Note: Since you will most likely be using css/javascript, the addition to the webpage for those scripts is in ``` userInterface.php ```, the locations are stored in an array. The only problem with this is that HTML/CSS won't accept parent directories like PHP, so you will have to place them in public/ either just sitting there in the directory or in dedicated sub-folders.
