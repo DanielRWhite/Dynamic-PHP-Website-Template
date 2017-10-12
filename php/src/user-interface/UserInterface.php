@@ -17,7 +17,7 @@ class UserInterface {
       'css/en_default.css'
     );
     $scripts = array(
-      'js/jquery.min.js',
+      'js/jquery.min.js'
     );
     foreach($stylesheets as $link) {
       print_r("<link rel='stylesheet' type='text/css' href='$link'>");
