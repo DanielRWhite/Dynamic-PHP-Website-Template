@@ -6,9 +6,9 @@ Quick rundown of the basic programming structure in the PHP classes (Mainly ```m
 # Execute PHP files dynamically
 
 ```php
-methods::execute_php("FILE LOCATION")
+methods::execute_php(FILE_LOCATION)
 ```
-This will execute a PHP file of your choosing. The file can include javascript, php, html, web assembly, etc. All PHP code will be executed upon embedding it. The directory for file location will begin looking at your public/ directory. So if you have placed your dynamic php scripts in php/html/ the correct starting directory would be ../php/html/.
+This will execute a PHP file of your choosing. The file can include JavaScript, PHP, HTML, Web Assembly, etc. All PHP code will be executed upon embedding it. The directory for file location will begin looking at your ```public/``` directory. So if you have placed your dynamic php scripts in ```php/html/``` the correct starting directory would be ```../php/html/``` or ```/path/to/php/scripts/script.php```.
 
 You can execute PHP files inside of other PHP files, as far as I have tested, there is no limit except for loading them into RAM & cache.
 
